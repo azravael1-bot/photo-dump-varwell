@@ -1,0 +1,83 @@
+HTML
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Dump</title>
+
+  <style>
+    /* Menggunakan teknik Masonry / Column Layout */
+    .galeri {
+      /* Membagi tampilan jadi 5 kolom */
+      column-count: 5;
+      /* Jarak antar kolom */
+      column-gap: 15px;
+      padding: 15px;
+    }
+
+    .galeri img {
+      width: 100%;           /* Lebar disesuaikan dengan kolom */
+      height: auto;          /* TINGGI ASLI/PROPORSIOANAL (Tanpa Crop!) */
+      display: block;
+      margin-bottom: 15px;   /* Jarak ke foto di bawahnya */
+      border-radius: 8px;    /* Opsional: Sudut melengkung */
+    }
+
+    /* Penyesuaian khusus di layar HP */
+    @media (max-width: 768px) {
+      .galeri {
+        column-count: 2;     /* Di HP otomatis berubah jadi 2 kolom */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="galeri">
+    <img src="Foto (1).JPG" alt="Foto 1">
+    <img src="Foto (2).JPG" alt="Foto 2">
+    <img src="Foto (3).JPG" alt="Foto 2">
+    <img src="Foto (4).JPG" alt="Foto 2">
+    <img src="Foto (5).JPG" alt="Foto 2">
+    <img src="Foto (6).JPG" alt="Foto 2">
+    <img src="Foto (7).JPG" alt="Foto 2">
+    <img src="Foto (8).JPG" alt="Foto 2">
+    <img src="Foto (9).JPG" alt="Foto 2">
+    <img src="Foto (10).JPG" alt="Foto 2">
+    <img src="Foto (11).JPG" alt="Foto 2">
+    <img src="Foto (12).JPG" alt="Foto 2">
+    <img src="Foto (13).JPG" alt="Foto 2">
+    <img src="Foto (14).JPG" alt="Foto 2">
+    <img src="Foto (15).JPG" alt="Foto 2">
+    <img src="Foto (16).JPG" alt="Foto 2">
+    <img src="Foto (17).JPG" alt="Foto 2">
+    <img src="Foto (18).JPG" alt="Foto 2">
+    <img src="Foto (19).JPG" alt="Foto 2">
+    <img src="Foto (20).JPG" alt="Foto 2">
+    <img src="Foto (21).JPG" alt="Foto 2">
+    <img src="Foto (22).JPG" alt="Foto 2">
+    <img src="Foto (23).JPG" alt="Foto 2">
+    <img src="Foto (24).JPG" alt="Foto 2">
+    <img src="Foto (25).JPG" alt="Foto 2">
+    <img src="Foto (26).JPG" alt="Foto 2">
+    <img src="Foto (27).JPG" alt="Foto 2">
+    <img src="Foto (28).JPG" alt="Foto 2">
+    <img src="Foto (29).JPG" alt="Foto 2">
+    <img src="Foto (30).JPG" alt="Foto 2">
+    <img src="Foto (31).JPG" alt="Foto 2">
+    <img src="Foto (32).JPG" alt="Foto 2">
+    <img src="Foto (33).JPG" alt="Foto 2">
+    <img src="Foto (34).JPG" alt="Foto 2">
+    <img src="Foto (35).JPG" alt="Foto 2">
+    <img src="Foto (36).JPG" alt="Foto 2">
+    <img src="Foto (37).JPG" alt="Foto 2">
+    <img src="Foto (38).JPG" alt="Foto 2">
+    <img src="Foto (29).JPG" alt="Foto 2">
+    <img src="Foto (40).JPG" alt="Foto 2">
+    <img src="Foto (41).JPG" alt="Foto 2">
+    <img src="Foto (42).JPG" alt="Foto 2">
+    <img src="Foto (43).JPG" alt="Foto 2">
+  </div>
+
+</body>
+</html>
